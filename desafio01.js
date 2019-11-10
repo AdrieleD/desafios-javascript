@@ -27,7 +27,7 @@ for(i = 0; i < partidas; i++){
 
 if(placarA === placarB) console.log("O jogo empatou");
 if(placarA > placarB) console.log("O jogador A ganhou a disputa por "+placarA+" a "+placarB+".");
-if(placarB > placarA) console.log("O jogador A ganhou a disputa por "+placarB+" a "+placarA+".");
+if(placarB > placarA) console.log("O jogador B ganhou a disputa por "+placarB+" a "+placarA+".");
 
 function verificaRegra(a, b){
     if((a === "R" && b === "S") || (a === "T" && b === "P") || (a === "P" && b === "R")){
